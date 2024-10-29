@@ -1,0 +1,16 @@
+Users can:
+    -create new topics in the '/topics/new' page
+    -view all topics in the '/topics' pgae, from which they can click on individual topics and go to them after being
+    redirected to the page for that specific topics 
+        -viewed from '/topics' page 
+    -view an individual topic and all quizzes for that topic. Users can click on a quiz associated with a topic and can 
+    be redirected to that quiz's page 
+        -viewed from the '/topics/:topicID' page
+    -create quizzes that are associated with topics and contain lists of flashcards. Users can add and remove card fields
+    in the quiz form 
+        -this can be done on the 'quizzes/new' page
+    -view all quizzes and click on individual quizzes to be redirected to their individual pages 
+        -viewed from '/quizzes' page 
+    -can view individual quizzes and and flip cards over 
+        -viewed from the '/quizzes/:quizId' page
+    
